@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Beschijf zo duidelijk mogelijk de feature**
+**Beschrijf zo duidelijk mogelijk de feature**
 
 
 **Wat lost deze feature op?**
