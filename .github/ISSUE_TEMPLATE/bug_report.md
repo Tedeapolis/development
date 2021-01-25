@@ -13,7 +13,7 @@ assignees: ''
 **Hoe kunnen wij de bug reproduceren (welke stappen moeten wij maken om dit ook te krijgen)**
 
 
-**Normaal gedrag (Wat zou er normaal moeten gebreuren)**
+**Normaal gedrag (Wat zou er normaal moeten gebeuren)**
 
 
 **Screenshots en/of logbestanden**
