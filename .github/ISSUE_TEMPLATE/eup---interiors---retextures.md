@@ -3,7 +3,7 @@ name: EUP - interiors - retextures
 about: 'Gebruik dit template voor EUP - interiors - retextures '
 title: ''
 labels: EUP - interiors - retextures
-assignees: brothasx
+assignees: brothasx, walvisgedaan
 
 ---
 
