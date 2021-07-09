@@ -1,31 +1,45 @@
 ---
 name: Voertuig bugreport
 about: Maak een bug report gerelateerd aan voertuigen
-title: 'Voertuig: '
-labels: 'voertuigen'
+title: ''
+labels: ''
 assignees: ''
 
 ---
-(Graag tekst tussen haakjes even weghalen, dit is uitleg)
+[//]: # (Dit type regels kun je gewoon weghalen, is puur uitleg)
+
 **Label van voertuig**
-(_Zoals weergegeven in voertuig winkel/garage_)
+
+[//]: # (Zoals weergegeven in voertuig winkel/garage)
 
 **Spawnnaam van voertuig**
-(_Wat je gebruikt /car om het in te spawnen_)
+
+[//]: # (Wat je gebruikt /car om het in te spawnen)
+
 
 **Kenteken van voertuig (wanneer van toepassing)**
-(_Als het om een specifiek voertuig gaat dit graag invullen_)
+
+[//]: # (Als het om een specifiek voertuig gaat dit graag invullen)
+
 
 **Omschrijf de bug**
-(_Duidelijke omschrijving van wat er precies gebeurd_)
+
+[//]: # (Duidelijke omschrijving van wat er precies gebeurd)
+
 
 **Hoe kunnen wij de bug reproduceren (welke stappen moeten wij maken om dit ook te krijgen)**
-(_Welke hele specifieke stappen moeten we volgen om dit betrouwbaar te kunnen hercreeëren_)
+
+[//]: # (Welke hele specifieke stappen moeten we volgen om dit betrouwbaar te kunnen hercreeëren)
+
 
 **Normaal gedrag**
-(_Wat is het verwachte gedrag, wat zou er normaal moeten gebeuren_)
+
+[//]: # (Wat is het verwachte gedrag, wat zou er normaal moeten gebeuren)
+
 
 **Screenshots en/of logbestanden**
-(_Wanneer van toepassingen graag logbestanden en screenshots toevoegen_)
+
+[//]: # (Wanneer van toepassingen graag logbestanden en screenshots toevoegen)
+
 
 **Impact op de server**
