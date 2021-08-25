@@ -3,9 +3,10 @@ name: Voertuig bugreport
 about: Maak een bug report gerelateerd aan voertuigen
 title: ''
 labels: ''
-assignees: ''
+assignees: Nander0320, walvisgedaan
 
 ---
+
 [//]: # (Dit type regels kun je gewoon weghalen, is puur uitleg)
 
 **Label van voertuig**
