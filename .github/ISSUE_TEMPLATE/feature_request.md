@@ -2,7 +2,7 @@
 name: Feature request
 about: Vraag een nieuwe feature aan
 title: ''
-labels: enhancement
+labels: enhancement, new
 assignees: ''
 
 ---

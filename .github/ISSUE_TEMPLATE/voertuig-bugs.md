@@ -2,7 +2,7 @@
 name: Voertuig bugreport
 about: Maak een bug report gerelateerd aan voertuigen
 title: ''
-labels: ''
+labels: Auto, bug, new
 assignees: Nander0320, walvisgedaan
 
 ---

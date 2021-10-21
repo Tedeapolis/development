@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Maak een bug report
-title: ''
-labels: 'bug'
+title: "[BUG]"
+labels: bug, new
 assignees: ''
 
 ---
