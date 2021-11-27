@@ -67,11 +67,6 @@ Example:
 <a name="features"></a>
 ## Feature requests
 
-Feature requests are welcome. But take a moment to find out whether your idea
-fits with the scope and aims of the project. It's up to *you* to make a strong
-case to convince the project's developers of the merits of this feature. Please
-provide as much detail and context as possible.
+Een feature request op Github is altijd welkom, zorg er echter wel voor dat deze van te voren een goed animo of goedkeuring van een developer heeft.
 
-
-**IMPORTANT**: By submitting a patch, you agree to allow the project owner to
-license your work under the same license as that used by the project.
+Als dit niet het geval is zal deze issue gesloten worden.
