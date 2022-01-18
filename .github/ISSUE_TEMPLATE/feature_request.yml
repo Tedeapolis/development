@@ -28,7 +28,7 @@ body:
       label: "Wat lost deze feature op?"
     validations:
       required: false
-  - type: markdownn
+  - type: markdown
     attributes:
       value: |
         Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
