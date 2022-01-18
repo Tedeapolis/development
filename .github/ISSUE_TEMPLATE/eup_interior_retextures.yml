@@ -32,7 +32,7 @@ body:
     attributes:
       label: Wat klopt er niet
       description: Wat klopt er niet aan de textures, eventueel screenshots van wat er niet klopt.
-      placeholder: Voorbeeld: Van een afstand is de texture geel.
+      placeholder: "Voorbeeld: Van een afstand is de texture geel."
   - type: markdown
     attributes:
       value: |
