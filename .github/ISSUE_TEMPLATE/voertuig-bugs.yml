@@ -1,0 +1,57 @@
+name: Voertuig bug
+description: Bug report gerelateerd aan voertuigen
+title: "[FEATURE]: "
+labels: ["voertuigen", "new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt dat je de tijd wilt nemen om een issue aan te maken!
+        Vul de onderstaande dingen aub zo gedetailleerd mogelijk in zodat we de issue snel kunnen afhandelen.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Hoe kunnen we je contacteren op Discord als we extra informatie nodig zijn?
+      placeholder: "Voorbeeld: Misstake#1337"
+    validations:
+      required: false
+  - type: input
+    id: plate
+    attributes:
+      label: "Kenteken van voertuig"
+      description: "Alleen als dit gaat om een specifiek voertuig"
+    validations:
+      required: false
+  - type: input
+    id: model
+    attributes:
+      label: "Voertuig model"
+      description: "Spawnnaam van voertuig, of exacte naam in dealer"
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "Omschrijf de bug"
+      description: "Wat ging er mis, eventueel met videobewijs, screenshots oid"
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: "Repro"
+      description: "Welke exacte stappen moeten wij volgen om deze bug zelf na te kunnen maken"
+    validations:
+      required: false
+  - type: textarea
+    id: normal-behavior
+    attributes:
+      label: "Normaal gedrag"
+      description: "Wat hoorde er te gebeuren?"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
