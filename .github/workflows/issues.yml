@@ -16,7 +16,7 @@ jobs:
       - name: Get project data
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-          ACCOUNT: https://github.com/Tedeapolis
+          ORGANIZATION: Tedeapolis
           PROJECT_NUMBER: 1
         run: |
           gh api graphql --header 'GraphQL-Features: projects_next_graphql' -f query='
@@ -33,7 +33,7 @@ jobs:
                   }
                 }
               }
-            }' -f account=$ACCOUNT -F number=$PROJECT_NUMBER > project_data.json
+            }' -f org=$ORGANIZATION -F number=$PROJECT_NUMBER > project_data.json
             
           echo 'PROJECT_ID='$(jq '.data.user.projectNext.id' project_data.json) >> $GITHUB_ENV
           echo 'DATE_FIELD_ID='$(jq '.data.user.projectNext.fields.nodes[] | select(.name== "Date Posted") | .id' project_data.json) >> $GITHUB_ENV
