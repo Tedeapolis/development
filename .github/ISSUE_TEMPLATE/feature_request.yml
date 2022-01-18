@@ -1,1 +1,34 @@
-
+name: Feature request
+description: Vraag een nieuwe feature aan
+title: "[FEATURE]: "
+labels: ["enhancement", "new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt dat je de tijd wilt nemen om een issue aan te maken!
+        Vul de onderstaande dingen aub zo gedetailleerd mogelijk in zodat we de issue snel kunnen afhandelen.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Hoe kunnen we je contacteren op Discord als we extra informatie nodig zijn?
+      placeholder: "Voorbeeld: Misstake#1337"
+    validations:
+      required: false
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Beschrijf zo duidelijk mogelijk de feature"
+    validations:
+      required: true
+  - type: textarea
+    id: solves
+    attributes:
+      label: "Wat lost deze feature op?"
+    validations:
+      required: false
+  - type: markdownn
+    attributes:
+      value: |
+        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
