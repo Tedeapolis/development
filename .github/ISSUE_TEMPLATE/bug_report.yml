@@ -32,6 +32,14 @@ body:
       label: Wat hoorde er te gebueren?
       description: Wat hoorde er te gebeuren, dus wat zou er normaal moeten gebeuren in plaats van het bovenstaande
       placeholder: Vertel ons wat je verwachte
+  - type: dropdown
+    id: impact
+    attributes:
+      description: "Hoog wanneer 50% of meer er last van heeft"
+      options:
+        - hoog
+        - laag
+        - geen
   - type: textarea
     id: logs
     attributes:
