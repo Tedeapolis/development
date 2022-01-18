@@ -16,28 +16,23 @@ body:
       placeholder: ex. Misstake#1337
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: dropdown
+    id: where
     attributes:
       label: Waar bevind de issue zich?
       description: 
-      placeholder: |
-        Voorbeeld: Ik zag een notificatie met de volgende tekst: "Er ging iets mis probeer het opnieuw"
-        Hiernaast kwam er ook een error in m'n console
+      options:
+        - EUP/Kleding
+        - Interiors
+        - Andere textures
     validations:
       required: true
   - type: textarea
-    id: what-should-happen
+    id: what-wrong
     attributes:
-      label: Wat hoorde er te gebueren?
-      description: Wat hoorde er te gebeuren, dus wat zou er normaal moeten gebeuren in plaats van het bovenstaande
-      placeholder: Vertel ons wat je verwachte
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevante log bestanden
-      description: Kopieër hier aub relevante logs in, dus als er errors in je console waren aub deze hierin kopiëren, zie [log bestanden](https://tedeapolis.nl/tutorials/#log-bestanden)
-      placeholder: Sleep hier je logbestanden heen
+      label: Wat klopt er niet
+      description: Wat klopt er niet aan de textures, eventueel screenshots van wat er niet klopt.
+      placeholder: Voorbeeld: Van een afstand is de texture geel.
   - type: markdown
     attributes:
       value: |
