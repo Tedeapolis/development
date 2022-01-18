@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Bedankt dat je de tijd wilt nemen om een issue aan te maken!
+        Vul de onderstaande dingen aub zo gedetailleerd mogelijk in zodat we de issue snel kunnen afhandelen.
   - type: input
     id: contact
     attributes:
@@ -20,7 +21,7 @@ body:
     attributes:
       label: Wat gebeurde er?
       description: Wat gebeurde er precies, dus welke meldingen zag je, wat zag je in je console, etc?
-      placeholder: Vertel ons wat je zag en wat er gebeurde!
+      placeholder: Ik zag een notificatie met de volgende tekst: "Er ging iets mis probeer het opnieuw"
     validations:
       required: true
   - type: textarea
@@ -28,7 +29,7 @@ body:
     attributes:
       label: Wat hoorde er te gebueren?
       description: Wat hoorde er te gebeuren, dus wat zou er normaal moeten gebeuren in plaats van het bovenstaande
-      placeholder: Vertel ons wat je verwachte.
+      placeholder: Vertel ons wat je verwachte
   - type: textarea
     id: logs
     attributes:
