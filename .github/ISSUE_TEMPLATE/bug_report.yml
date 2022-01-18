@@ -37,6 +37,8 @@ body:
     attributes:
       label: "Wat veroorzaakt de bug?"
       description: "Welke exacte stappen kunnen wij volgen om deze bug zelf na te kunnen maken?"
+      placeholder: |
+        Voorbeeld: "Doe eerst een zak op je hoofd, doe hierna een dansje en dan opeens teleport je naar narcopolis"
     validations:
       required: false
   - type: dropdown
