@@ -36,7 +36,7 @@ body:
     id: impact
     attributes:
       description: "Hoog wanneer 50% of meer er last van heeft"
-      label: ""
+      label: "Wat de impact van deze bug?"
       options:
         - hoog
         - laag
