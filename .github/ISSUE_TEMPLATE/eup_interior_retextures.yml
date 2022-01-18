@@ -13,7 +13,7 @@ body:
     attributes:
       label: Contact Details
       description: Hoe kunnen we je contacteren op Discord als we extra informatie nodig zijn?
-      placeholder: Voorbeeld: Misstake#1337
+      placeholder: "Voorbeeld: Misstake#1337"
     validations:
       required: false
   - type: dropdown
