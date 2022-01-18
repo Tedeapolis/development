@@ -3,10 +3,6 @@ on:
  issues:
     types:
       - opened
-      - labeled
-      - reopened
-      - unlabeled
-      - closed
     
 jobs:
   track_issue:
