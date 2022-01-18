@@ -11,30 +11,30 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: Hoe kunnen we je contacteren op Discord als we extra informatie nodig zijn?
+      placeholder: ex. Misstake#1337
     validations:
       required: false
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: Wat gebeurde er?
+      description: Wat gebeurde er precies, dus welke meldingen zag je, wat zag je in je console, etc?
+      placeholder: Vertel ons wat je zag en wat er gebeurde!
       value: "A bug happened!"
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Relevante log bestanden
+      description: Kopieër hier aub relevante logs in, dus als er errors in je console waren aub deze hierin kopiëren, zie [log bestanden](https://tedeapolis.nl/tutorials/#log-bestanden)
       render: shell
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Ik ga akkoord met de contributing richtlijnen
           required: true
