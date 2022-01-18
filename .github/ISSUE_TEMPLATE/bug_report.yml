@@ -21,7 +21,8 @@ body:
     attributes:
       label: Wat gebeurde er?
       description: Wat gebeurde er precies, dus welke meldingen zag je, wat zag je in je console, etc?
-      placeholder: Ik zag een notificatie met de volgende tekst: "Er ging iets mis probeer het opnieuw"
+      placeholder: |
+        Ik zag een notificatie met de volgende tekst: "Er ging iets mis probeer het opnieuw"
     validations:
       required: true
   - type: textarea
