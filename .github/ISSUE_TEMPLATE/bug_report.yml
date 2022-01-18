@@ -32,6 +32,13 @@ body:
       label: Wat hoorde er te gebueren?
       description: Wat hoorde er te gebeuren, dus wat zou er normaal moeten gebeuren in plaats van het bovenstaande
       placeholder: Vertel ons wat je verwachte
+  - type: textarea
+    id: repro
+    attributes:
+      label: "Repro"
+      description: "Welke exacte stappen kunnen wij volgen om deze bug zelf na te kunnen maken?"
+    validations:
+      required: false
   - type: dropdown
     id: impact
     attributes:
