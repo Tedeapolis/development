@@ -38,11 +38,7 @@ body:
       label: Relevante log bestanden
       description: Kopieër hier aub relevante logs in, dus als er errors in je console waren aub deze hierin kopiëren, zie [log bestanden](https://tedeapolis.nl/tutorials/#log-bestanden)
       placeholder: Sleep hier je logbestanden heen
-  - type: checkboxes
-    id: terms
+  - type: markdown
     attributes:
-      label: Code of Conduct
-      description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
-      options:
-        - label: Ik ga akkoord met de contributing richtlijnen
-          required: true
+      value: |
+        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
