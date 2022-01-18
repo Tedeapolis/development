@@ -1,0 +1,44 @@
+name: EUP/Kleding
+description: EUP/kleding gerelateerde issues
+title: "[EUP]: "
+labels: ["bug", "EUP - interiors - retextures", "new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt dat je de tijd wilt nemen om een issue aan te maken!
+        Vul de onderstaande dingen aub zo gedetailleerd mogelijk in zodat we de issue snel kunnen afhandelen.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Hoe kunnen we je contacteren op Discord als we extra informatie nodig zijn?
+      placeholder: ex. Misstake#1337
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Waar bevind de issue zich?
+      description: 
+      placeholder: |
+        Voorbeeld: Ik zag een notificatie met de volgende tekst: "Er ging iets mis probeer het opnieuw"
+        Hiernaast kwam er ook een error in m'n console
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: Wat hoorde er te gebueren?
+      description: Wat hoorde er te gebeuren, dus wat zou er normaal moeten gebeuren in plaats van het bovenstaande
+      placeholder: Vertel ons wat je verwachte
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevante log bestanden
+      description: Kopieër hier aub relevante logs in, dus als er errors in je console waren aub deze hierin kopiëren, zie [log bestanden](https://tedeapolis.nl/tutorials/#log-bestanden)
+      placeholder: Sleep hier je logbestanden heen
+  - type: markdown
+    attributes:
+      value: |
+        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
