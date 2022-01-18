@@ -1,5 +1,5 @@
-name: Bug Report Test
-description: File a bug report
+name: Bug Report
+description: Meld een bug
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
@@ -36,6 +36,7 @@ body:
     id: impact
     attributes:
       description: "Hoog wanneer 50% of meer er last van heeft"
+      label: ""
       options:
         - hoog
         - laag
