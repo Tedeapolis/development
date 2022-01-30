@@ -42,6 +42,19 @@ body:
     validations:
       required: false
   - type: dropdown
+    id: frequency
+    attributes:
+      description: "Hoevaak komt deze bug voor?"
+      label: "Frequentie van bug"
+      options:
+        - Altijd
+        - Meerdere keren per dag
+        - 1x per dag
+        - 1x per week
+        - Sporadisch/Heel soms
+      validations:
+        required: true
+  - type: dropdown
     id: impact
     attributes:
       description: "Hoog wanneer 50% of meer er last van heeft"
