@@ -52,8 +52,8 @@ body:
         - 1x per dag
         - 1x per week
         - Sporadisch/Heel soms
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: impact
     attributes:
