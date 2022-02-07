@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: what-should-happen
     attributes:
-      label: Wat hoorde er te gebueren?
+      label: Wat hoorde er te gebeuren?
       description: Wat hoorde er te gebeuren, dus wat zou er normaal moeten gebeuren in plaats van het bovenstaande
       placeholder: Vertel ons wat je verwachte
   - type: textarea
@@ -45,7 +45,7 @@ body:
     id: frequency
     attributes:
       description: "Hoevaak komt deze bug voor?"
-      label: "Frequentie van bug"
+      label: "Frequentie van de bug"
       options:
         - Altijd
         - Meerdere keren per dag
@@ -58,7 +58,7 @@ body:
     id: impact
     attributes:
       description: "Hoog wanneer 50% of meer er last van heeft"
-      label: "Wat de impact van deze bug?"
+      label: "Wat is de impact van deze bug?"
       options:
         - hoog
         - laag
