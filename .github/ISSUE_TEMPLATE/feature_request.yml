@@ -8,6 +8,9 @@ body:
       value: |
         Bedankt dat je de tijd wilt nemen om een issue aan te maken!
         Vul de onderstaande dingen aub zo gedetailleerd mogelijk in zodat we de issue snel kunnen afhandelen.
+        
+        **Wanneer je langere teksten maakt vergeet dan niet gebruik te maken van OPMAAK! (headings/kopjes per onderwerp etc)**
+        Dit zorgt ervoor dat het overzichtelijk blijft en we je issue waarschijnlijk sneller op zullen pakken
   - type: input
     id: contact
     attributes:
