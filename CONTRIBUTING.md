@@ -25,6 +25,8 @@ Gebruik waar toepasselijk lijsten, etc.
 
 Als je niet bekend bent met markdown dan kun je eventueel dit bestand als vorobeeld gebruiken, zie [source code](https://github.com/Tedeapolis/development/blob/master/CONTRIBUTING.md?plain=1) voor de markdown van dit bestand.
 
+**Vooral bij issues met meer tekst zijn kopjes belangrijk (###, ## en #)**
+
 
 <a name="bugs"></a>
 ## Bug reports
