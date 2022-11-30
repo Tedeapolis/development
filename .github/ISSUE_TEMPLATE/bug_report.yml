@@ -71,7 +71,8 @@ body:
         Kopieër hier aub relevante logs in, dus als er errors in je console waren aub deze hierin kopiëren, zie [log bestanden](https://tedeapolis.nl/tutorials/#log-bestanden)
         Gelieve het volledige logbestand hierin te plaatsen (dus even op "Open Log" klikken in console en dit bestand uploaden)
       placeholder: Sleep hier je logbestanden heen
-  - type: markdown
+  - type: checkboxes
     attributes:
-      value: |
-        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
+      options:
+        - label: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
+        - required: true
