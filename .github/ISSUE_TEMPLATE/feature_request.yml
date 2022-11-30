@@ -11,6 +11,8 @@ body:
         
         **Wanneer je langere teksten maakt vergeet dan niet gebruik te maken van OPMAAK! (headings/kopjes per onderwerp etc)**
         Dit zorgt ervoor dat het overzichtelijk blijft en we je issue waarschijnlijk sneller op zullen pakken
+        
+        Voor opmaak hulp zie [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) (Dit is sws handig om te weten want werkt ook volledig in Discord berichten)
   - type: input
     id: contact
     attributes:
