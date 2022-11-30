@@ -51,7 +51,11 @@ body:
       description: "Wat hoorde er te gebeuren?"
     validations:
       required: false
-  - type: markdown
+  - type: checkboxes
+    id: richtlijnen
     attributes:
-      value: |
-        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
+      label: Richtlijnen
+      description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTRIBUTING.md) richtlijnen
+      options:
+        - label: Ik ga akkoord met de issue richtlijnen en heb deze aandachtig gelezen
+          required: true
