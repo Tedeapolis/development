@@ -23,6 +23,8 @@ The issue tracker is the preferred channel for [bug reports](#bugs) and
 Zorg er bij het maken van een issue voor dat de opmaak correct is, dus deel langere issues aub in in kopjes.
 Gebruik waar toepasselijk lijsten, etc.
 
+Als je niet bekend bent met markdown dan kun je eventueel dit bestand als vorobeeld gebruiken, zie [source code](https://github.com/Tedeapolis/development/blob/master/CONTRIBUTING.md?plain=1) voor de markdown van dit bestand.
+
 
 <a name="bugs"></a>
 ## Bug reports
