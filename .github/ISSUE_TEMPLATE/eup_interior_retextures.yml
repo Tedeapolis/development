@@ -32,7 +32,11 @@ body:
       label: Wat klopt er niet
       description: Wat klopt er niet aan de textures, eventueel screenshots van wat er niet klopt.
       placeholder: "Voorbeeld: Van een afstand is de texture geel."
-  - type: markdown
+  - type: checkboxes
+    id: richtlijnen
     attributes:
-      value: |
-        Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
+      label: Richtlijnen
+      description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTRIBUTING.md) richtlijnen
+      options:
+        - label: Ik ga akkoord met de issue richtlijnen en heb deze aandachtig gelezen
+          required: true
