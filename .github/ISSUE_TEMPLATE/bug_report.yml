@@ -72,7 +72,10 @@ body:
         Gelieve het volledige logbestand hierin te plaatsen (dus even op "Open Log" klikken in console en dit bestand uploaden)
       placeholder: Sleep hier je logbestanden heen
   - type: checkboxes
+    id: richtlijnen
     attributes:
+      label: Richtlijnen
+      description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
       options:
-        - label: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTIBUTING.md) richtlijnen
-        - required: true
+        - label: Ik ga akkoord met de issue richtlijnen en heb deze aandachtig gelezen
+          required: true
