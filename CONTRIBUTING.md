@@ -1,66 +1,50 @@
 # Contributing to this project
 
-Please take a moment to review this document in order to make the contribution
-process easy and effective for everyone involved.
+Zorg er aub voor dat je dit document zorgvuldig doorleest voor je een issue aanmaakt! Dit zodat we snel en gemakkelijk je issue op kunnen pakken.
 
-Following these guidelines helps to communicate that you respect the time of
-the developers managing and developing this open source project. In return,
-they should reciprocate that respect in addressing your issue or assessing
-patches and features.
+Door deze richtlijnen aan te houden laat jij zien dat je de tijd die de
+developers in je issue steken waardeert en respecteert. En hiervoor zullen wij
+als developers ook dit respect terug geven.
 
 
-## Using the issue tracker
+## Gebruik maken van de issue tracker
 
+Het gebruikmaken van de issue tracker voor [bug reports](#bugs) en
+[feature requests](#features) heeft bij ons de voorkeur.
 The issue tracker is the preferred channel for [bug reports](#bugs) and
 [features requests](#features), but please respect the following restrictions:
 
-* Please **do not** use the issue tracker for personal support requests (use
-  [Stack Overflow](http://stackoverflow.com) or IRC).
+* Issues zijn **niet** bedoelt voor persoonlijke hulp (Gebruik hiervoor [de support Discord](https://discord.gg/uQ9jGA93yC)).
 
-* Please **do not** derail or troll issues. Keep the discussion on topic and
-  respect the opinions of others.
+* Wees respectvol in issues!
+
+## Opmaak
+
+Zorg er bij het maken van een issue voor dat de opmaak correct is, dus deel langere issues aub in in kopjes.
+Gebruik waar toepasselijk lijsten, etc.
 
 
 <a name="bugs"></a>
 ## Bug reports
 
-A bug is a _demonstrable problem_ that is caused by the code in the repository.
-Good bug reports are extremely helpful - thank you!
+Een bug is een _aantoonbaar probleem_ die veroorzaakt wordt door code van onze server.
+Een goede bug report is voor ons heel erg helpvol!
 
-Guidelines for bug reports:
+### Richtlijnen voor bug reports
 
-1. **Use the GitHub issue search** &mdash; check if the issue has already been
-   reported.
+1. **Maak gebruik van de zoekfunctie** &mdash; Controleer voordat je een issue aanmaakt
+   of een issue al eerder aangemaakt is!
 
-2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
-   latest `master` or development branch in the repository.
+2. **Controleer of het probleem is opgelost** &mdash; Controleer nadat je issue gesloten
+   is of de fout daadwerkelijk opgelost is. Als dit niet het geval is reageer dan op de gesloten
+   issue, dan wordt hij weer heropened.
 
-3. **Isolate the problem** &mdash; create a [reduced test
-   case](http://css-tricks.com/reduced-test-cases/) and a live example.
+3. **Isoleer het probleem** &mdash; probeer uit te vogelen wat het probleem veroorzaakt, dus probeer
+   zoveel mogelijk variabelen te verwijderen en kijk wat minimaal nodig is om de fout te veroorzaken.
 
-A good bug report shouldn't leave others needing to chase you up for more
-information. Please try to be as detailed as possible in your report. What is
-your environment? What steps will reproduce the issue? What browser(s) and OS
-experience the problem? What would you expect to be the outcome? All these
-details will help people to fix any potential bugs.
-
-Example:
-
-> Short and descriptive example bug report title
->
-> A summary of the issue and the browser/OS environment in which it occurs. If
-> suitable, include the steps required to reproduce the bug.
->
-> 1. This is the first step
-> 2. This is the second step
-> 3. Further steps, etc.
->
-> `<url>` - a link to the reduced test case
->
-> Any other information you want to share that is relevant to the issue being
-> reported. This might include the lines of code that you have identified as
-> causing the bug, and potential solutions (and your opinions on their
-> merits).
+Een goede bug report zou ervoor moeten zorgen dat wij geen contact met je op hoeven te nemen.
+Probeer zo gedetaileerd mogelijk te zijn en probeer zoveel mogelijk informatie te geven.
+Welke stappen moeten wij volgen om deze exacte fout zelf te krijgen.
 
 
 <a name="features"></a>
