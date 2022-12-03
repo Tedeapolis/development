@@ -34,7 +34,6 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: richtlijnen
     attributes:
       label: Richtlijnen
       description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTRIBUTING.md) richtlijnen
