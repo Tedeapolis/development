@@ -16,6 +16,12 @@ body:
       placeholder: "Voorbeeld: Misstake#1337"
     validations:
       required: false
+  - type: input
+    id: goedkeuring
+    attributes:
+      label: Goedgekeurd door
+      description: Is deze issue door iemand goedgekeurd? Zo ja, vul dan hier de persoon z'n Discord tag in.
+      value: "N.V.T."
   - type: dropdown
     id: where
     attributes:
