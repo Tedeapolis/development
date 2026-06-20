@@ -16,6 +16,18 @@ body:
       placeholder: ex. Misstake#1337
     validations:
       required: false
+  - type: input
+    id: sinds
+    attributes:
+      label: Sinds
+      description: Sinds wanneer zit de bug in de server?
+      placeholder: "Sinds 2 weken"
+  - type: input
+    id: laatst_getest
+    attributes:
+      label: Laatst tegengekomen
+      description: Wanneer heb je voor het laatst de bug getest/is deze voorgekomen?
+      placeholder: "Vandaag"
   - type: textarea
     id: what-happened
     attributes:
